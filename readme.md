@@ -17,5 +17,5 @@ Projeto front-end desenvolvido para praticar HTML, CSS e JavaScript.
 # Objetivo
 Praticar estruturação de páginas, estilização e interações com o usuário.
 
- Autor
+# Feito por : 
 Thomas Castro
