@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal de Acesso</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="screen">
+    <section class="brand-panel">
+      <div class="brand-content">
+        <span class="tag">THOMAS CASTRO</span>
+        <h1>PORTAL DE ACESSO</h1>
+        <p class="brand-text">
+          Interface de autenticação
+        </p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <span class="info-title">Perfil</span>
+            <strong>Suporte / Infra / Dev</strong>
+          </div>
+
+          <div class="info-card">
+            <span class="info-title">Objetivo</span>
+            <strong>Praticar front-end e validação</strong>
+          </div>
+
+          <div class="info-card">
+            <span class="info-title">Stack</span>
+            <strong>HTML, CSS e JavaScript</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="login-panel">
+      <form class="login-box" id="loginForm">
+        <div class="login-header">
+          <p class="mini-label">ACESSO RESTRITO</p>
+          <h2>Entrar no sistema</h2>
+          <p class="subtitle">
+            Informe seu e-mail corporativo e sua senha para continuar.
+          </p>
+        </div>
+
+        <div class="input-group">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="seunome@empresa.com"
+            autocomplete="username"
+          />
+        </div>
+
+        <div class="input-group">
+          <label for="password">Senha</label>
+          <div class="password-area">
+            <input
+              type="password"
+              id="password"
+              placeholder="Digite sua senha"
+              autocomplete="current-password"
+            />
+            <button type="button" id="togglePassword" class="toggle-btn">
+              Mostrar
+            </button>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label class="checkbox-area">
+            <input type="checkbox" id="remember" />
+            <span>Lembrar meu acesso</span>
+          </label>
+
+          <a href="#" class="forgot-link">Esqueci minha senha</a>
+        </div>
+
+        <p id="message" class="message"></p>
+
+        <button type="submit" class="login-btn">Entrar</button>
+
+    <p style="margin-top: 18px; font-size: 13px; color: #7e92ab; text-align: center;">
+  Interface desenvolvida como projeto de estudo para prática de front-end, validação de formulários e interação com o usuário.
+</p>
+
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
